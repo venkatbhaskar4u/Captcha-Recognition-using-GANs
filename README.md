@@ -33,6 +33,7 @@ This project demonstrates the application of Generative Adversarial Networks (GA
 - Achieves **60% character-level or image-level accuracy** against challenging CAPTCHA datasets.
 - Side-by-side display of original, GAN-generated, and model-decoded CAPTCHA images.
 - Benchmark comparisons: GAN-augmented models vs. traditional data augmentation pipelines.
+- Low accuracy in CAPTCHA recognition with GANs is expected due to severe technical challenges: CAPTCHAs are intentionally distorted and noisy, making character segmentation and sequence recognition extremely difficult. Additionally, GAN-generated data often fails to capture the full diversity and adversarial variations of real CAPTCHAs, and typical deep learning models struggle to generalize across these unpredictable styles and overlapping characters. As a result, even advanced models are limited by complexity, inadequate data, and the design of CAPTCHAs to resist automated decoding.
 
 ## Applications & Impact
 - **Security Research:** Evaluates the vulnerability of existing CAPTCHA systems to advanced ML attacks.
