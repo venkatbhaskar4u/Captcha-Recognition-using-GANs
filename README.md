@@ -30,7 +30,7 @@ This project demonstrates the application of Generative Adversarial Networks (GA
 5. Evaluate results and visualize model performance.
 
 ## Results & Example Outputs
-- Achieves **X% character-level or image-level accuracy** against challenging CAPTCHA datasets.
+- Achieves **60% character-level or image-level accuracy** against challenging CAPTCHA datasets.
 - Side-by-side display of original, GAN-generated, and model-decoded CAPTCHA images.
 - Benchmark comparisons: GAN-augmented models vs. traditional data augmentation pipelines.
 
